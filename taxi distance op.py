@@ -1,0 +1,19 @@
+#taxi distance 
+d= int(input("enter the distance,"))
+taxi no=int(input("enter the taxi number :"))
+name = str(input("enter name :"))
+if d<1:
+    cost = 25
+elif d<1 and d>6:
+    cost = 10
+elif d<6 and d>12:
+    cost = 15
+elif d<12 and d>18:
+    cost = 20
+elif d>18:
+    cost =25
+amount=cost*d
+print("taxi number :",taxi number)
+print("distance :",distace )
+print("name :",name )
+print("amount:", amount)
